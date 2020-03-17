@@ -1,0 +1,145 @@
+﻿@model IEnumerable<Product>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for adding new product-->
+            <div class="container-fluid p-2">
+                <form asp-action="AddProduct" enctype="multipart/form-data" method="post">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-4">
+                            <select class="custom-select mr-sm-2" name="CategoryId" required>
+                                <option selected>Choose Product Category</option>
+                                @foreach (Product_Category pcategory in ViewBag.Product_Categories)
+                                {
+                                    <option value="@pcategory.Id">@pcategory.CategoryName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" name="ProductName" class="form-control" placeholder="ProductName">
+                        </div>
+                        <div class="col-2">
+                            <input type="number" name="Stock" class="form-control" placeholder="Stock">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <textarea name="Description" rows="6" class="form-control" placeholder="Product Description"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <textarea name="Specifications" rows="10" class="form-control" placeholder="Product Specifications"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="file" name="ImageForm" class="form-control" placeholder="Image Link">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="Price" class="form-control" placeholder="Product Price">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            @if (Model.Count() == 0)
+            {
+                <div class="row justify-content-center">
+                    <div class="alert alert-danger text-center"><p class="h1">No products in database</p></div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <table class="table table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Product Category</th>
+                                <th scope="col">Product Name</th>
+                                <th scope="col">Stock</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Specifications</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Edit</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Product product in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@product.Id</th>
+                                    <td>@product.Category.CategoryName</td>
+                                    <td>@product.ProductName</td>
+                                    <td>@product.Stock</td>
+                                    <td>@product.Description</td>
+                                    <td>@product.Specifications</td>
+                                    <td>@product.Image</td>
+                                    <td>@product.Price</td>
+                                    <td><a asp-action="UpdateProduct" asp-route-id="@product.Id" class="btn btn-sm btn-warning">Edit</a></td>
+                                    <td>
+                                        <form asp-action="DeleteProduct" method="post">
+                                            <input type="hidden" name="Id" value="@product.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

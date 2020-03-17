@@ -1,0 +1,104 @@
+﻿@model ValueTuple<IEnumerable<Product_Category>, IEnumerable<Product>>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="AboutUS">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Products categories-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.Heading</h2>
+                </div>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl suscipit adipiscing bibendum est. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus quis varius quam quisque id diam vel. Et odio pellentesque diam volutpat. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Venenatis a condimentum vitae sapien pellentesque.
+
+                    Velit laoreet id donec ultrices. Metus dictum at tempor commodo ullamcorper a lacus. Vitae aliquet nec ullamcorper sit amet risus. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Arcu felis bibendum ut tristique. Quam quisque id diam vel quam elementum pulvinar etiam non. Lectus proin nibh nisl condimentum id. Nisl purus in mollis nunc sed. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Interdum velit euismod in pellentesque massa placerat duis.
+
+                    At risus viverra adipiscing at in tellus integer. Quam vulputate dignissim suspendisse in est ante. Risus quis varius quam quisque. Tristique et egestas quis ipsum suspendisse. Elementum curabitur vitae nunc sed velit dignissim sodales. Egestas congue quisque egestas diam in arcu cursus euismod. Mi eget mauris pharetra et ultrices neque. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Amet nulla facilisi morbi tempus iaculis urna id. Ac ut consequat semper viverra nam. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Gravida arcu ac tortor dignissim convallis aenean et. Non tellus orci ac auctor augue mauris augue. Malesuada proin libero nunc consequat interdum varius sit amet. Enim sed faucibus turpis in eu mi bibendum. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Sed vulputate odio ut enim blandit volutpat. Tellus pellentesque eu tincidunt tortor aliquam.
+                </p>
+            </div>
+        </section>
+
+
+
+        <!--Instagram and Facebook links-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>VIEW US ON INSTAGRAM AND FACEBOOK</h2>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter-->
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <div class="title">
+                            <h2>SUBSCRIBE TO NEWSLETTER</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, <br> facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="input-group subscription-form">
+                                    <input type="text" class="form-control" placeholder="Enter Your Email Address">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-main" type="button">Subscribe Now!</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>

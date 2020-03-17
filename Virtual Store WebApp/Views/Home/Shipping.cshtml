@@ -1,0 +1,108 @@
+﻿@model ValueTuple<IEnumerable<Product_Category>, IEnumerable<Product>>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="AboutUS">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Products categories-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.Heading</h2>
+                </div>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum facilisis leo. Ut consequat semper viverra nam libero justo laoreet sit amet. Ac tortor dignissim convallis aenean et tortor at risus. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Odio pellentesque diam volutpat commodo sed. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Tincidunt eget nullam non nisi est sit amet facilisis. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Amet volutpat consequat mauris nunc congue nisi. Mauris a diam maecenas sed enim ut. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Ac feugiat sed lectus vestibulum mattis. Neque aliquam vestibulum morbi blandit. Vitae tortor condimentum lacinia quis. Dignissim enim sit amet venenatis. Vitae auctor eu augue ut. Odio tempor orci dapibus ultrices in iaculis nunc sed. Mattis molestie a iaculis at erat pellentesque adipiscing commodo.
+
+                    Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Varius sit amet mattis vulputate enim nulla aliquet porttitor. Commodo quis imperdiet massa tincidunt. Amet porttitor eget dolor morbi non arcu risus quis. Amet consectetur adipiscing elit ut aliquam. Tellus in hac habitasse platea dictumst vestibulum. Diam maecenas ultricies mi eget mauris pharetra. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Ullamcorper eget nulla facilisi etiam. Elementum pulvinar etiam non quam lacus. Libero volutpat sed cras ornare. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl.
+
+                    Tristique senectus et netus et. Adipiscing elit pellentesque habitant morbi tristique senectus. Purus non enim praesent elementum facilisis. Et sollicitudin ac orci phasellus egestas. Non arcu risus quis varius quam quisque id diam. Justo donec enim diam vulputate ut pharetra. Tincidunt dui ut ornare lectus. Natoque penatibus et magnis dis parturient montes. Vestibulum sed arcu non odio euismod. Laoreet suspendisse interdum consectetur libero id. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Consequat mauris nunc congue nisi. Enim ut tellus elementum sagittis vitae et leo duis ut.
+
+                    Tristique senectus et netus et malesuada fames ac. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Vulputate sapien nec sagittis aliquam malesuada. Purus in mollis nunc sed id semper risus in hendrerit. Augue mauris augue neque gravida in. Dolor morbi non arcu risus. Neque aliquam vestibulum morbi blandit cursus risus at. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Proin fermentum leo vel orci. Consectetur a erat nam at lectus urna. Sit amet consectetur adipiscing elit.
+
+                    Et sollicitudin ac orci phasellus egestas tellus rutrum. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Pretium vulputate sapien nec sagittis. Sit amet volutpat consequat mauris nunc congue nisi. Sit amet luctus venenatis lectus. Orci eu lobortis elementum nibh tellus molestie. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Etiam tempor orci eu lobortis elementum nibh. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Dictum sit amet justo donec enim diam. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Eget egestas purus viverra accumsan in nisl nisi. Cras fermentum odio eu feugiat pretium nibh ipsum.
+                </p>
+            </div>
+        </section>
+
+
+
+        <!--Instagram and Facebook links-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>VIEW US ON INSTAGRAM AND FACEBOOK</h2>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter-->
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <div class="title">
+                            <h2>SUBSCRIBE TO NEWSLETTER</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, <br> facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="input-group subscription-form">
+                                    <input type="text" class="form-control" placeholder="Enter Your Email Address">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-main" type="button">Subscribe Now!</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>

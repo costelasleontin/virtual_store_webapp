@@ -1,0 +1,108 @@
+﻿@model ValueTuple<IEnumerable<Product_Category>, IEnumerable<Product>>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="AboutUS">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-controller="Home" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Products categories-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.Heading</h2>
+                </div>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis varius quam quisque id diam vel quam. Scelerisque purus semper eget duis. Molestie ac feugiat sed lectus. Pulvinar neque laoreet suspendisse interdum consectetur libero. Orci ac auctor augue mauris. Sed pulvinar proin gravida hendrerit. Sit amet mauris commodo quis imperdiet massa tincidunt. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Congue nisi vitae suscipit tellus mauris a diam maecenas. Amet purus gravida quis blandit turpis.
+
+                    Enim sit amet venenatis urna. Faucibus pulvinar elementum integer enim neque volutpat ac. Donec massa sapien faucibus et molestie ac feugiat sed lectus. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Sit amet consectetur adipiscing elit. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Donec adipiscing tristique risus nec feugiat in. Ut aliquam purus sit amet. Vulputate ut pharetra sit amet. Consequat interdum varius sit amet. Tellus id interdum velit laoreet id. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Eu nisl nunc mi ipsum faucibus. Odio ut sem nulla pharetra diam. Arcu dui vivamus arcu felis bibendum. Vitae semper quis lectus nulla. Habitant morbi tristique senectus et netus et malesuada. Augue ut lectus arcu bibendum at. Habitant morbi tristique senectus et netus et malesuada fames ac.
+
+                    Id neque aliquam vestibulum morbi. Sit amet nulla facilisi morbi tempus iaculis urna id. Tincidunt tortor aliquam nulla facilisi cras. Enim ut tellus elementum sagittis vitae et. Proin nibh nisl condimentum id. Aliquam sem et tortor consequat id porta nibh venenatis. Eu sem integer vitae justo eget magna fermentum. Nunc congue nisi vitae suscipit tellus mauris a diam. Risus feugiat in ante metus dictum at tempor. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Placerat duis ultricies lacus sed turpis tincidunt.
+
+                    Cras ornare arcu dui vivamus arcu. Iaculis nunc sed augue lacus viverra vitae congue. In nisl nisi scelerisque eu ultrices vitae auctor. Dui ut ornare lectus sit amet. Mattis vulputate enim nulla aliquet porttitor lacus. Tellus integer feugiat scelerisque varius morbi enim. Viverra vitae congue eu consequat ac felis donec. Phasellus vestibulum lorem sed risus ultricies. Diam donec adipiscing tristique risus nec feugiat. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Orci ac auctor augue mauris augue.
+
+                    Urna porttitor rhoncus dolor purus non enim. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Congue mauris rhoncus aenean vel. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Metus aliquam eleifend mi in. Dolor magna eget est lorem ipsum dolor. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Eget dolor morbi non arcu risus quis varius. Mattis nunc sed blandit libero. At ultrices mi tempus imperdiet nulla. Augue lacus viverra vitae congue eu consequat. Lorem donec massa sapien faucibus et molestie ac.
+                </p>
+            </div>
+        </section>
+
+
+
+        <!--Instagram and Facebook links-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>VIEW US ON INSTAGRAM AND FACEBOOK</h2>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a href="#">
+                            <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter-->
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <div class="title">
+                            <h2>SUBSCRIBE TO NEWSLETTER</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, <br> facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="input-group subscription-form">
+                                    <input type="text" class="form-control" placeholder="Enter Your Email Address">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-main" type="button">Subscribe Now!</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>

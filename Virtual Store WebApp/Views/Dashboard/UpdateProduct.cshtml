@@ -1,0 +1,104 @@
+﻿@model Product
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for adding new product-->
+            <div class="container-fluid p-2">
+                <form asp-action="UpdateProduct" enctype="multipart/form-data" method="post">
+                    <input type="hidden" name="Id" class="form-control" value="@Model.Id">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-4">
+                            <select class="custom-select mr-sm-2" name="CategoryId" required>
+                                @foreach (Product_Category pcategory in ViewBag.Product_Categories)
+                                {
+                                    @if (pcategory.Id == Model.Id)
+                                    {
+                                        <option selected value="@pcategory.Id">@pcategory.CategoryName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@pcategory.Id">@pcategory.CategoryName</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" name="ProductName" class="form-control" value="@Model.ProductName">
+                        </div>
+                        <div class="col-2">
+                            <input type="number" name="Stock" class="form-control" value="@Model.Stock">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <textarea name="Description" rows="6" class="form-control">@Model.Description</textarea>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <textarea name="Specifications" rows="10" class="form-control">@Model.Specifications</textarea>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="file" name="ImageForm" class="form-control" accept="image/png, image/jpeg, image/jpg, image/gif">
+                            <input type="hidden" name="Image" class="form-control" value="@Model.Image">
+                        </div>
+                        <div class="col">
+                            <input type="number" name="Price" class="form-control" value="@((Model.Price??0).ToString(CultureInfo.InvariantCulture))">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a asp-action="Products" class="btn btn-primary">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

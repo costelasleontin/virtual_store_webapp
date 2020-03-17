@@ -1,0 +1,113 @@
+﻿@model ValueTuple<IEnumerable<Product_Category>, IEnumerable<Product>>
+
+<div style="margin-left:5%;margin-right:5%">
+
+    <!-- Top Header -->
+    @await Html.PartialAsync("_Header")
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!--Active menu item-->
+                <li class="nav-item ">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" asp-controller="Home" asp-action="Products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" asp-controller="Home" asp-action="Products">All Products</a>
+                        <div class="dropdown-divider"></div>
+                        @foreach (Product_Category category in Model.Item1)
+                        {
+                            <a class="dropdown-item" asp-controller="Home" asp-action="Products" asp-route-prodcateg="@category.Id">@category.CategoryName</a>
+                        }
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="AboutUS">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Products that are in trend-->
+    <section>
+        <div class="container-fluid">
+            <div class="title text-center col-md-12">
+                <h2>PRODUCTS</h2>
+            </div>
+            <div class="row align-items-center">
+                @foreach (Product product in Model.Item2)
+                {
+
+                    <div class="col-md-4 text-center p-2">
+                        <a asp-controller="Dashboard" asp-action="Index">
+                            <img class="img-fluid presentation  rounded" src="~/images/@product.Image" />
+                            <div class="img_heading">
+                                <h3>@product.ProductName</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </section>
+
+    <!--Instagram and Facebook links-->
+    <section>
+        <div class="container-fluid">
+            <div class="title text-center col-md-12">
+                <h2>VIEW US ON INSTAGRAM AND FACEBOOK</h2>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-2 text-center">
+                    <a href="#">
+                        <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                    </a>
+                </div>
+                <div class="col-md-2 text-center">
+                    <a href="#">
+                        <img class="img-fluid presentation rounded" src="~/lib/images/categ_img/category.jpg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Newsletter-->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <div class="title">
+                        <h2>SUBSCRIBE TO NEWSLETTER</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, <br> facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="input-group subscription-form">
+                                <input type="text" class="form-control" placeholder="Enter Your Email Address">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-main" type="button">Subscribe Now!</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @await Html.PartialAsync("_Footer")
+
+</div>

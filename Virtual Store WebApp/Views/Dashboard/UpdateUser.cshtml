@@ -1,0 +1,93 @@
+﻿@model UpdateUser2
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for editing user-->
+            <div class="container-fluid p-2">
+                <form asp-action="UpdateUser" method="post">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" asp-for="UserName" class="form-control" value="@Model.UserName">
+                        </div>
+                        <div class="col">
+                            <input type="password" asp-for="Password" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" asp-for="FirstName" class="form-control" value="@Model.FirstName">
+                        </div>
+                        <div class="col">
+                            <input type="text" asp-for="LastName" class="form-control" value="@Model.LastName">
+                        </div>
+                        <div class="col">
+                            <input asp-for="Birthdate" type="text" asp-format="{0:d}" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="tel" pattern="[0-9]{10}" asp-for="PhoneNumber" class="form-control" value="@Model.PhoneNumber">
+                        </div>
+                        <div class="col-9">
+                            <input type="email" asp-for="Email" class="form-control" value="@Model.Email">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" asp-for="Address" class="form-control" value="@Model.Address">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a asp-action="Users" class="btn btn-primary">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

@@ -1,0 +1,142 @@
+﻿@model IEnumerable<AdminUser>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for adding new user-->
+            <div class="container-fluid p-2">
+                <form asp-action="AddUser" method="post">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" name="UserName" class="form-control" placeholder="UserName">
+                        </div>
+                        <div class="col">
+                            <input type="password" name="Password" class="form-control" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" name="FirstName" class="form-control" placeholder="FirstName">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="LastName" class="form-control" placeholder="LastName">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="Birthdate" asp-format="{0:d}" class="form-control" placeholder="Birth Date Format = 01.01.2000" />
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-4">
+                            <input type="tel" pattern="[0-9]{10}" name="PhoneNumber" class="form-control" placeholder="PhoneNumber Format = 0755001001">
+                        </div>
+                        <div class="col-8">
+                            <input type="email" name="Email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" name="Address" class="form-control" placeholder="Address">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            @if (Model.Count() == 0)
+            {
+                <div class="row justify-content-center">
+                    <div class="alert alert-danger text-center"><p class="h1">No users in database</p></div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <table class="table table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">User Name</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Birth Date</th>
+                                <th scope="col">Phone Number</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Edit</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (AdminUser user in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@user.Id</th>
+                                    <td>@user.UserName</td>
+                                    <td>@user.FirstName</td>
+                                    <td>@user.LastName</td>
+                                    <td>@user.Birthdate.ToString("dd-MM-yyyy")</td>
+                                    <td>@user.PhoneNumber</td>
+                                    <td>@user.Email</td>
+                                    <td>@user.Address</td>
+                                    <td><a asp-action="UpdateUser" asp-route-id="@user.Id" class="btn btn-sm btn-warning">Edit</a></td>
+                                    <td>
+                                        <form asp-action="DeleteUser" method="post">
+                                            <input type="hidden" name="Id" value="@user.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

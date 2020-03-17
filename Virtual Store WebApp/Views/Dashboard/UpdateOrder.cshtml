@@ -1,0 +1,97 @@
+﻿@model Order
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for adding new product-->
+            <div class="container-fluid p-2">
+                <form asp-action="UpdateOrder" method="post">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-5">
+                            <input type="text" asp-for="UserId" class="form-control" value="@Model.UserId">
+                        </div>
+                        <div class="col-5">
+                            <input type="text" asp-for="Time" asp-format="{0:d}" class="form-control" value="@Model.Time" />
+                        </div>
+                        <div class="col-2">
+                            <input type="number" asp-for="TotalPrice" class="form-control" value="@((Model.TotalPrice??0).ToString(CultureInfo.InvariantCulture))">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-9">
+                            <input type="text" asp-for="Products" class="form-control" value="@Model.Products">
+                        </div>
+                        <div class="col-3">
+                            <select class="custom-select mr-sm-2" name="Status" required>
+                                @foreach (OrderStatus status in Enum.GetValues(typeof(OrderStatus)))
+                                {
+                                    @if (Model.Status == status)
+                                    {
+                                        <option selected value="@((int)status)">@((OrderStatus)status)</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@((int)status)">@((OrderStatus)status)</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" asp-for="DeliveryAddress" class="form-control" value="@Model.DeliveryAddress">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a asp-action="Orders" class="btn btn-primary">Cancel</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

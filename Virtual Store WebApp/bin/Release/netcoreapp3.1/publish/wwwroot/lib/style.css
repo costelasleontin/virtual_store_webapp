@@ -1,0 +1,57 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.presentation {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+
+    .presentation:hover, presentation:focus {
+        opacity: 0.5;
+    }
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.img_heading {
+    position:absolute;
+    z-index:999;
+    top:5px;
+    left:20px;
+}
+
+.logo {
+    width: 329px;
+    height: 63px;
+}
+
+@media screen and (max-width:800px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}

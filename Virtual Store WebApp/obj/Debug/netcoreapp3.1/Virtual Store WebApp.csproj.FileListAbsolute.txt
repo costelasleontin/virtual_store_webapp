@@ -1,0 +1,394 @@
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.Manifest.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.xml
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.input.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.output.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorCoreGenerate.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\bundleconfig.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\package.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.exe
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.deps.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.dev.json
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lenovo\source\repos\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csprojAssemblyReference.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\bundleconfig.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\package.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.exe
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.deps.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.dev.json
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.Manifest.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.xml
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfoInputs.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfo.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.input.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.output.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorCoreGenerate.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\AdminUsers.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Orders.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Products.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Product_Category.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateAdminUser.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateOrder.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateProduct.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateProduct_Category.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateUser.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Users.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\PrivacyPolicy.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Shipping.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\TermsOfService.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cache
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cs
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csproj.CopyComplete
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+D:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csprojAssemblyReference.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.Manifest.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\staticwebassets\Virtual Store WebApp.StaticWebAssets.xml
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.MvcApplicationPartsAssemblyInfo.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorAssemblyInfo.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfoInputs.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.AssemblyInfo.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\bundleconfig.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\package.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.exe
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.deps.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.runtimeconfig.dev.json
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.input.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.TagHelpers.output.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorCoreGenerate.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\AdminUsers.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Orders.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Products.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Product_Category.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateAdminUser.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateOrder.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateProduct.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateProduct_Category.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\UpdateUser.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Users.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\PrivacyPolicy.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Products.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Shipping.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\TermsOfService.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.RazorTargetAssemblyInfo.cs
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.Views.pdb
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csproj.CopyComplete
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.dll
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.pdb
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csproj.CoreCompileInputs.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.genruntimeconfig.cache
+F:\Programare\Proiecte Visual Studio\Virtual Store WebApp\Virtual Store WebApp\obj\Debug\netcoreapp3.1\Virtual Store WebApp.csprojAssemblyReference.cache

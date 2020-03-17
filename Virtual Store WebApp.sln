@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virtual Store WebApp", "Virtual Store WebApp\Virtual Store WebApp.csproj", "{059FDF1F-04A6-44F5-8A04-B777DB4D3A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual_Store_WebApp.Tests", "Virtual_Store_WebApp.Tests\Virtual_Store_WebApp.Tests.csproj", "{CCE40B3C-680E-4486-A857-5E1381DAD67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{059FDF1F-04A6-44F5-8A04-B777DB4D3A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059FDF1F-04A6-44F5-8A04-B777DB4D3A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059FDF1F-04A6-44F5-8A04-B777DB4D3A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059FDF1F-04A6-44F5-8A04-B777DB4D3A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE40B3C-680E-4486-A857-5E1381DAD67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE40B3C-680E-4486-A857-5E1381DAD67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE40B3C-680E-4486-A857-5E1381DAD67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE40B3C-680E-4486-A857-5E1381DAD67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3742BE5C-3018-4EE7-A0F4-A15418EBF6C0}
+	EndGlobalSection
+EndGlobal

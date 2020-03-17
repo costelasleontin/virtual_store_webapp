@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="VirtualStoreWebApp20200317123024" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\Programare\\Proiecte\ Visual\ Studio\\Virtual\ Store\ WebApp\\Virtual\ Store\ WebApp\\obj\\Debug\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

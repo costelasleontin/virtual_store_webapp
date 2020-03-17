@@ -1,0 +1,151 @@
+﻿@model IEnumerable<Order>
+
+    <div style="margin-left:5%;margin-right:5%">
+        <!-- Top Header -->
+        @await Html.PartialAsync("_Header")
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!--Active menu item-->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Index">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AdminUsers">Admin Users<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Users">Customers<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Products">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Product_Category">Product Category<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-action="Orders">Orders <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+
+        <!--Information Section-->
+        <section>
+            <div class="container-fluid">
+                <div class="title text-center col-md-12">
+                    <h2>@ViewBag.DashboardCateg</h2>
+                </div>
+            </div>
+
+            <!-- Form for adding new product-->
+            <div class="container-fluid p-2">
+                <form asp-action="AddOrder" method="post">
+                    <div class="form-row" p-2>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-5">@*Need to implement User search/select menu*@
+                            <input type="text" name="UserId" class="form-control" placeholder="UserName">
+                        </div>
+                        <div class="col-5">
+                            <input type="text" name="Time" asp-format="{0:d}" class="form-control" placeholder="Ordering Time Format = 01.01.2000 01:00" />
+                        </div>
+                        @*Need to change this in the future to auto calculated number displayed by label*@
+                        <div class="col-2">
+                            <input type="number" name="TotalPrice" class="form-control" placeholder="Total Price">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col-9">
+                            <input type="text" name="Products" class="form-control" placeholder="Products">
+                        </div>
+                        <div class="col-3">
+                            <select class="custom-select mr-sm-2" name="Status" required>
+                                @foreach (OrderStatus status in Enum.GetValues(typeof(OrderStatus)))
+                                {
+
+                                    @if ((OrderStatus)status == OrderStatus.InProcessing)
+                                    {
+                                        <option selected value="@((int)status)">@((OrderStatus)status)</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@((int)status)">@((OrderStatus)status)</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <input type="text" name="DeliveryAddress" class="form-control" placeholder="Delivery Address">
+                        </div>
+                    </div>
+                    <div class="form-row p-2">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            @if (Model.Count() == 0)
+            {
+                <div class="row justify-content-center">
+                    <div class="alert alert-danger text-center"><p class="h1">No orders in database</p></div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <table class="table table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">User Name</th>
+                                <th scope="col">Products</th>
+                                <th scope="col">Order Date</th>
+                                <th scope="col">Order Status</th>
+                                <th scope="col">Delivery Address</th>
+                                <th scope="col">Total Price</th>
+                                <th scope="col">Edit</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Order order in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@order.Id</th>
+                                    <td>@order.UserId</td>@*In the future will implement Username when I create the component to select associated user*@
+                                    <td>
+                                        @foreach (ProductOrderJoin product in order.Products)
+                                        {
+                                            <span>@product.Product.ProductName</span>
+                                        }
+                                    </td>
+                                    <td>@order.Time</td>
+                                    <td>@order.Status</td>
+                                    <td>@order.DeliveryAddress</td>
+                                    <td>@order.TotalPrice</td>
+                                    <td><a asp-action="UpdateOrder" asp-route-id="@order.Id" class="btn btn-sm btn-warning">Edit</a></td>
+                                    <td>
+                                        <form asp-action="DeleteOrder" method="post">
+                                            <input type="hidden" name="Id" value="@order.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </section>
+
+        @await Html.PartialAsync("_Footer")
+
+    </div>
+

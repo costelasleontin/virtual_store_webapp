@@ -1,0 +1,30 @@
+﻿<header>
+    <div class="container-fluid">
+        <!-- Site Logo -->
+        <div class="row justify-content-center">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6 text-center">
+                <a href="index.html">
+                    <!-- logo here -->
+                    <img class="logo rounded img-fluid" src="~/lib/logo/logo.png" alt="website main logo" />
+                </a>
+            </div>
+            <div class="col-3 align-self-end">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item p-2">
+                        <a asp-controller="Account" asp-action="#">Cart</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a asp-controller="Account" asp-action="Login">Sign In</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a asp-controller="Account" asp-action="Logout">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr />
+</header>
